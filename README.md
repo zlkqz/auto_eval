@@ -3,7 +3,7 @@
 [**Paper**]() (coming soon)
 
 In this paper, we propose a model-based evaluation method: **TALEC**, which allows users to flexibly set their own evaluation criteria, and uses in-context learning (ICL) to teach judge model these in-house criteria. In addition, we try combining zero-shot and few-shot to make the judge model focus on more information. We also propose a prompt paradigm and an engineering approach to adjust and iterate the shots ,helping judge model to better understand the complex criteria. We then compare fine-tuning with ICL, finding that fine-tuning can be replaced by ICL. TALEC demonstrates a strong capability to accurately reflect human preferences and achieves a correlation of over 80% with human judgments, outperforming even the inter-human correlation in some tasks.
-**Judge Process:**
+- **Judge Process:**
 ![Judge Process](https://github.com/zlkqz/auto_eval/blob/master/img/judge_process.jpg)
 
 
